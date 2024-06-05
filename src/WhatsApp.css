@@ -1,0 +1,106 @@
+
+.left-section {
+    background-color: #fff;
+    border-right: 1px solid #e6e6e6;
+    height: 100vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #ededed;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.profile-picture img {
+    width: 40px;
+    height: 40px;
+ 
+}
+
+.icons .header-icon {
+    font-size: 1.25rem;
+    color: #54656f;
+    cursor: pointer;
+}
+
+.search-bar {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.input-wrapper .search-icon {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #54656f;
+}
+
+.search-input {
+    padding-left: 40px;
+    height: 40px;
+    border: none;
+    max-width: 99%;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.conversations-list {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.conversation-item {
+    border-bottom: 1px solid #e6e6e6;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.conversation-item:hover {
+    background-color: #f5f5f5;
+}
+
+.conversation-img {
+    width: 50px;
+    height: 50px;
+}
+
+.conversation-info {
+    flex-grow: 1;
+}
+
+.conversation-name {
+    font-weight: bold;
+}
+
+.conversation-message {
+    color: #888;
+}
+.header-icon{
+    color: red;
+    font-size: x-large;
+}
+.search-icon{
+   font-size: x-large; 
+}
+.navbar{
+    background-color: #f7f7f7;
+    height: 76px;
+    width: 99%;
+}
+.send-icon{
+    color: rgb(38, 116, 219);
+    font-size: x-large;  
+}
+.send-message{
+    position:absolute;
+    left:190px;
+    bottom:0;
+    right:0;
+}
+
+
+  
+  
